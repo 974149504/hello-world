@@ -1,7 +1,7 @@
 package SpringTest;
 
-import java.util.Calendar;
-import java.util.Date;
+import java.sql.SQLOutput;
+import java.util.*;
 
 /**
  * @ClassName MainApp
@@ -36,7 +36,7 @@ public class MainApp {
         System.out.println(subString);*/
 
 
-        String str = "123456789456456521315468784553113154697/878945";
+        /*String str = "123456789456456521315468784553113154697/878945";
 
         int length = str.length();
 
@@ -44,6 +44,29 @@ public class MainApp {
         System.out.println(subStr);
 
 
+        HashMap<String, String> data = new HashMap<>();
+        data.put("name","shl");
+        data.put("age","27");
+
+        StringBuilder url = new StringBuilder("http://172.16.21.182:8098");
+
+        data.forEach((k,v) ->{
+            url.append("&" + k + "=");
+            url.append(v);
+        });
+
+        System.out.println(url);*/
+
+
+        /*String str = "172.16.21.102-1-出";
+        Integer i = "入".equals(str.substring(str.length() - 1)) ? 0 : 1 ;
+
+        System.out.println(i.toString());*/
+
+        List<String> list = new ArrayList<>();
+        list.add("45645assd");
+
+        System.out.println(list.size() > 0);
 
     }
 }

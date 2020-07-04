@@ -54,6 +54,13 @@ public class LambdaTest {
         list.forEach(System.out::println);
        /* File file = new File("C:\\Users\\HP\\Desktop\\input.bin");
         BufferedInputStream in = new BufferedInputStream(new FileInputStream(file));*/
+
+
+
+        System.out.println("=====================================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
+
+
         String s;
         StringBuilder res = new StringBuilder();
         char[] buf = {0x53, 0x49, 0x50, 0x2f, 0x32, 0x2e, 0x30, 0x20,
@@ -97,7 +104,7 @@ public class LambdaTest {
         for(char c:buf){
             System.out.print(c);
         }
-        System.out.println("=================>>>>>>>>>>>>>>>>>");
+
         System.out.print(0x49);
 
         AttendanceInfo attendanceInfo = new AttendanceInfo();
