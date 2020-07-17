@@ -84,4 +84,9 @@ public class UdpTest {
       System.out.println(Arrays.toString(bytes));
    }
 
+   public static void main(String[] args) {
+      String str = "hello,world!";
+      System.out.println(str.equals(str));
+   }
+
 }

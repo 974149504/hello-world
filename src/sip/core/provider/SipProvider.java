@@ -58,7 +58,7 @@ public class SipProvider implements TransportListener, TcpServerListener
     /**
      * UDP protocol type
      */
-    public static final String PROTO_UDP = "udp";
+    public static final String PROTO_UDP = "udpandObserve";
 
     /**
      * TCP protocol type

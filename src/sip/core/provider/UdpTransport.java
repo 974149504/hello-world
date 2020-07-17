@@ -15,7 +15,7 @@ class UdpTransport implements Transport, UdpProviderListener
     /**
      * UDP protocol type
      */
-    private static final String PROTO_UDP = "udp";
+    private static final String PROTO_UDP = "udpandObserve";
 
     /**
      * UDP provider

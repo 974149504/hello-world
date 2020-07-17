@@ -17,7 +17,7 @@ public abstract class BaseMessage
     /**
      * UDP
      */
-    public static final String PROTO_UDP = "udp";
+    public static final String PROTO_UDP = "udpandObserve";
 
     /**
      * TCP
